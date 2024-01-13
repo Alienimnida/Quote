@@ -6,7 +6,7 @@ function generateQuote(){
  const url = 'https://api.api-ninjas.com/v1/quotes?';
 const options = {
 	headers: {
-		'X-Api-Key': 'YOUR_API',
+		'X-Api-Key': 'YOUR_APIKEY',
 	}
 }
 let fetchRes = fetch(url,options);
