@@ -1,0 +1,19 @@
+body{
+    background-color: #F3EEEA;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2),0 5px 15px rgba(0,0,0,0.19);
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
